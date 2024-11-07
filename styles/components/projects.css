@@ -1,0 +1,39 @@
+.projects{
+    margin-top: 8rem;
+    text-align: center;
+}
+h2{
+    font-size: x-large;
+    color:var(--clr-title);
+}
+p{
+    color:var(--clr-slate600);
+}
+
+@media(min-width:475px){
+    h2{
+        font-size: x-large;
+    }
+    p{
+        font-size: medium;
+    }
+}
+
+@media(min-width:1024px){
+    h2{
+        font-size: xx-large;
+    }
+    p{
+        font-size: larger;
+    }
+}
+
+@media(min-width:1280px){
+    h2{
+        font-size: 80px;
+    }
+    p{
+        font-size: x-large;
+    }
+}
+

@@ -1,0 +1,29 @@
+.footer__para{
+    color:var(--clr-light);
+    text-align: center;
+    margin-top: 5rem;
+    font-size: medium;
+    user-select: none;
+    letter-spacing: 0.2em;
+}
+
+@media(min-width:475px){
+    .footer__para{
+        font-size: medium;
+    }
+    
+}
+
+@media(min-width:1024px){
+    .footer__para{
+        font-size: large;
+    }
+
+}
+
+@media(min-width:1280px){
+    .footer__para{
+        font-size: x-large;
+    }
+
+}
