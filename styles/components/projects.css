@@ -2,12 +2,94 @@
     margin-top: 8rem;
     text-align: center;
 }
+
 h2{
     font-size: x-large;
     color:var(--clr-title);
 }
+
+h3{
+    font-size: larger;
+    color:var(--clr-slate400);
+}
+
 p{
     color:var(--clr-slate600);
+}
+
+.project__btn{
+    margin-top: 1rem;
+    font-size: smaller;
+    margin-left: 1rem;
+    margin-right:1rem;
+    border-style: none;
+}
+
+.ttt__btn{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right:1rem;
+    border-style: none;
+}
+
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 10000;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.modal-content {
+    background-color: #1a1a1a;
+    color: white;
+    margin: 15vh auto;
+    padding: 2rem;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+    border: 1px solid var(--clr-skyblue);
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--clr-slate600);
+}
+
+.close-modal:hover {
+    color: white;
+}
+
+.mini_games ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1.5rem;
+}
+
+.project__grid {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.project__card {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
 }
 
 @media(min-width:475px){
@@ -17,6 +99,9 @@ p{
     p{
         font-size: medium;
     }
+    .project__btn{
+        font-size:small;
+    }
 }
 
 @media(min-width:1024px){
@@ -25,6 +110,9 @@ p{
     }
     p{
         font-size: larger;
+    }
+    .project__btn{
+        font-size:large;
     }
 }
 
@@ -36,4 +124,3 @@ p{
         font-size: x-large;
     }
 }
-

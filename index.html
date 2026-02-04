@@ -4,126 +4,125 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Web</title>
+    <title>Sahil Kothiya | Portfolio</title>
+    <link rel="stylesheet" href="./src/style.css">
   </head>
   <body>
-    <script type="module" src="./src/main.js"></script>
+
     <div class="container">
-    <header class="header container">
+      <header class="header container">
         <nav>
           <button class="header__bars">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
               <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
-            </svg>            
+            </svg>
           </button>
           <ul class="header__menu">
-              <li>
-                <a class="header__link btn" href="#about">About Me</a>
-              </li>
-              <li>
-                <a class="header__link btn" href="#projects">Projects</a>
-              </li>
-              <li>
-                <a class="header__link btn" href="#certificates">Certificates</a>
-              </li>
-              <li>
-                <a class="header__link btn" href="#contact">Contact Me</a>
-              </li>
+            <li><a class="header__link btn" href="#about">About Me</a></li>
+            <li><a class="header__link btn" href="#projects">Projects</a></li>
+            <li><a class="header__link btn" href="#certificates">Certificates</a></li>
+            <li><a class="header__link btn" href="#contact">Contact Me</a></li>
           </ul>
         </nav>
-    </header>
-    <div class="mobile-nav">
-      <nav>
-        <ul class="mobile-nav_menu">
-          <li></li>
-          <a class="mobile-nav_link" href="#about">About</a>
-          <li>
-            <a class="mobile-nav_link" href="#projects">Projects</a>
-          </li>
-          <li>
-            <a class="mobile-nav_link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <main>
+      </header>
+
+      <div class="mobile-nav">
+        <nav>
+          <ul class="mobile-nav_menu">
+            <li><a class="mobile-nav_link" href="#about">About</a></li>
+            <li><a class="mobile-nav_link" href="#projects">Projects</a></li>
+            <li><a class="mobile-nav_link" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <main>
         <section class="hero container">
           <div class="hero__img_div">
-            <img class="hero__img" src="/pictures/hero.jpg" alt="Profile picture ">
+            <img class="hero__img" src="/pictures/hero.jpg" alt="Profile picture" />
           </div>
           <h2 class="hero__subtitle">Hi, I'm Sahil👋</h2>
-          <h1 class="hero__title">Bachelor's Student At
-            <br> 
-            <span >
+          <h1 class="hero__title">
+            Bachelor's Student At <br />
+            <span>
               <a class="hero__span" href="https://algomau.ca/" target="_blank">Algoma University.</a>
             </span>
           </h1>
-            <p class="hero__desc">
-              Welcome to my website! I'm a dedicated student 
-              passionate about learning and exploring new ideas. 
-              Here, you'll find insights into my academic journey, 
-              projects, and interests. I hope you enjoy your visit 
-              and discover something new and exciting. Thank you for 
-              stopping by!
-            </p>
-            <a class="hero__btn btn" href="#contact">Reach out</a>
+          <p class="hero__desc">
+            Welcome to my website! I'm a dedicated student passionate about learning and exploring new ideas.
+          </p>
+          <a class="hero__btn btn" href="#contact">Reach out</a>
         </section>
+
         <section id="about" class="about container">
           <div>
             <h2 class="about__title">About</h2>
             <p class="about__para">
-              My name is Sahil Kothiya and I'm delighted to have you 
-              here. Let me take a moment to introduce myself.
-              I am a <strong style="color:var(--clr-indigo)">Bachelor Of Computer Science Student</strong> 
-              at <strong><a  target="_blank" style="text-decoration: none; color: rgb(210, 31, 31)" href="https://algomau.ca/">Algoma University</a></strong> 
-              Brampton Campus, Aspiring Software Developer with a goal to join Google's Team in the Near Future.  
+              My name is Sahil Kothiya. I am a 
+              <strong style="color: var(--clr-indigo)">Bachelor Of Computer Science Student</strong> at 
+              <strong><a target="_blank" style="text-decoration: none; color: rgb(210, 31, 31)" href="https://algomau.ca/">Algoma University</a></strong>.
             </p>
-            <br>
-            <p class="about__para">
-              Driven by hard work and consistency, I am dedicated to becoming a 
-              software developer at Google. My journey has allowed me to work in 
-              diverse roles, each experience shaping my skills and inspiring me 
-              to reach my goal.       
-            </p>
-            <br>
-            <p class="about__para">
-              Welcome to my website! Here, you’ll find a brief introduction 
-              about me. I hope it’s both informative and engaging. Feel free to 
-              explore and reach out if you have any questions or would like to 
-              connect. 
-              <br>
-              Thank you for visiting, I look forward to connecting with you!           
-             </p>
           </div>
           <div class="about__img">
-            <img src="/pictures/about.JPG" alt="Sahil's picture">
-          </div>  
-        </section>
-        <section id="projects" class="projects container">
-        <div>
-          <h2>Projects</h2>
-          <br>
-          <p>Coming Soon</p>
-        </div>
-      </section>
-      <section id="certificates" class="certificates">
-        <a id="certificates" class=" certificates__btn btn" href="https://drive.google.com/drive/folders/1CxRNoj3HryXD4n1opwssVQqOfbREYXeg?usp=sharing">Certificates</a>
-      </section>
-        <section id="contact" class="contact container">
-          <h2>Get in Contact</h2>
-          <p>Wether you are starting a project or just want to say hi,
-            feel free to reach out to me and i will get back to you as
-            soon as possible.
-          </p>
-          <div>
-            <a href="mailto:sahil5082.k@gmail.com" class="contact__btn btn">Reach Out</a>
-            <a href="https://www.linkedin.com/in/sahil-kothiya-3923b1293/" class="contact__btn btn" target="_blank">Linkedin</a>
+            <img src="/pictures/about.JPG" alt="Sahil's picture" />
           </div>
         </section>
-    </main>
-    <footer class="footer container">
+
+        <section id="projects" class="projects container">
+          <h2 class="projects__title">Projects</h2>
+          <div class="project__grid">
+            <div class="project__card">
+                <h3>Mini Games</h3>
+                <p>Interactive web games built with JavaScript.</p>
+                <br>
+                <button id="openGamesBtn" class="project__btn btn">View Games</button>
+            </div>
+
+            <div class="project__card">
+                <h3>Other Projects</h3>
+                <p>More projects coming soon.</p>
+                <br>
+                <button class="project__btn btn" disabled>Coming Soon</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="certificates" class="certificates">
+          <a class="certificates__btn btn" href="https://drive.google.com/drive/folders/1CxRNoj3HryXD4n1opwssVQqOfbREYXeg?usp=sharing" target="_blank">Certificates</a>
+        </section>
+
+        <section id="contact" class="contact container">
+          <h2>Get in Contact</h2>
+          <p>Whether you are starting a project or just want to say hi, feel free to reach out!</p>
+          <div>
+            <a href="mailto:sahil5082.k@gmail.com" class="contact__btn btn">Reach Out</a>
+            <a href="https://www.linkedin.com/in/sahil-kothiya-3923b1293/" class="contact__btn btn" target="_blank">LinkedIn</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer container">
         <p class="footer__para">~Sahil | Kothiya~</p>
-    </footer>
-  </div>
+      </footer>
+    </div>
+
+    <div id="gameModal" class="modal-overlay">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h3>Game Menu</h3>
+        <div class="mini_games">
+          <div class="game__card_mini">
+            <br>
+            <button id="ticTacToeBtn" class="ttt__btn btn">
+              <h4>Tic Tac Toe</h4>
+            </button>  
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script type="module" src="./src/main.js"></script>
+
   </body>
 </html>

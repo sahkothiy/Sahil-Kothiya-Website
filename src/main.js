@@ -10,5 +10,8 @@ import '../styles/components/footer.css';
 import '../styles/components/mobile-nav.css';
 import '../styles/util.css';
 
+import { initGames } from './games.js';
+initGames();
+
 import mobileNav from './mobile-nav';
 mobileNav();
