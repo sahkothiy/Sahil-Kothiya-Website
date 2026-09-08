@@ -1,0 +1,27 @@
+.certificates{
+    display: flex;
+    justify-content: center;
+    margin-top:5rem;
+}
+
+.certificates__btn{
+    font-size: smaller;
+}
+
+@media(min-width:475px){
+    .certificates__btn{
+        font-size: small;
+    }
+}
+
+@media(min-width:1024px){
+    .certificates__btn{
+        font-size: large;
+    }
+}
+
+@media(min-width:1280px){
+    .certificates__btn{
+        font-size: larger;
+    }
+}
